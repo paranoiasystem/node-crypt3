@@ -2,7 +2,7 @@
 
 #include <v8.h>
 #include <errno.h>
-#include <unistd.h>		// for crypt if _XOPEN_SOURCE exists
+#include "unistd.h"		// for crypt if _XOPEN_SOURCE exists
 #include <nan.h>
 
 using namespace v8;

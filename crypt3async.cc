@@ -8,7 +8,7 @@
 #include <node.h>
 #include <uv.h>
 #include <iostream>
-#include <unistd.h>
+#include "unistd.h"
 #include <string.h>
 
 using namespace std;
